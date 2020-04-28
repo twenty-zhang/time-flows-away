@@ -1,0 +1,466 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "参考《The Clock》 原作者是Dynameis，加了一些功能，一个小练习。\r\nBase on dynameis's <the clock>, I just adding some tricks to it. like an exercise. \r\n\r\n如果你有有趣的想法想加入到这个壁纸中，欢迎留言，我会努力实现。\r\nIf you have any interesting ideas, welcome to leave a message, I will try my best to make it happen.\r\n\r\n一个简单的html页面，简单的css和js定时器实现，暂时还没有华丽的功能，所以wallpaper engine中的包括帧数在内的全部设置都可以改为最低。\r\nThis wallpaper is just a simple web project and it's not very technology. So you can minimize the quality of wallpaper engine.\r\n\r\n尽量的轻量化，尽量的不占用系统资源。\r\nas lightweight as possible.",
+	"file" : "inedx.html",
+	"general" :
+	{
+		"localization" :
+		{
+			"en-us" :
+			{
+				"ui_12_24_12" : "12",
+				"ui_12_24_24" : "24",
+				"ui_background_image" : "Background image",
+				"ui_birthday" : ">Show how many days you've lived",
+				"ui_birthday_string" : ">>birthday",
+				"ui_birthday_string_size" : ">>Font size",
+				"ui_birthday_string_type" : "Detail",
+				"ui_birthday_string_type_days" : "Days",
+				"ui_birthday_string_type_detail" : "Detail",
+				"ui_body_color" : "Background solid color",
+				"ui_color" : "=====COLOR=====",
+				"ui_date_size" : "Date font size",
+				"ui_day_color" : "Day color",
+				"ui_footer_slogan" : "Footer slogan",
+				"ui_footer_slogan_size" : "Footer slogan size",
+				"ui_from_friend_tips" : "=====friend's ideas=====",
+				"ui_header_slogan" : "Header slogan",
+				"ui_header_slogan_size" : "header slogan size",
+				"ui_hello_world" : "If you have any interesting ideas, welcome to leave a message, I will try my best to make it happen.",
+				"ui_hour_color" : "Hour color",
+				"ui_min_color" : "Minute color",
+				"ui_month_color" : "Month color",
+				"ui_other_thing" : "=====OTHER=====",
+				"ui_position" : "=====POSITION=====",
+				"ui_position_h" : "Horizontal",
+				"ui_position_h_c" : "Center",
+				"ui_position_h_l" : "Left",
+				"ui_position_h_r" : "Right",
+				"ui_position_v" : "Vertical",
+				"ui_position_v_c" : "Center",
+				"ui_position_v_d" : "Bottom",
+				"ui_position_v_u" : "Top",
+				"ui_prefix_birthday_string" : ">>Prefix",
+				"ui_suffix_birthday_string" : ">>Suffix",
+				"ui_text_color" : "Text color",
+				"ui_text_opacity" : "Clock mask transparency",
+				"ui_text_opacity_color" : "Clock mask color",
+				"ui_text_size" : "=====TEXT AND SIZE=====",
+				"ui_time_size" : "Time font size",
+				"ui_year_color" : "Year color",
+				"ui_scroll_size": "ProgressBar size"
+			},
+			"zh-chs" :
+			{
+				"ui_12_24_12" : "12小时",
+				"ui_12_24_24" : "24小时",
+				"ui_background_image" : "背景",
+				"ui_birthday" : ">显示活了多少天",
+				"ui_birthday_string" : ">>生日",
+				"ui_birthday_string_size" : ">>文字字号",
+				"ui_birthday_string_type" : "显示方式",
+				"ui_birthday_string_type_days" : "天",
+				"ui_birthday_string_type_detail" : "详细",
+				"ui_body_color" : "纯色背景",
+				"ui_color" : "=====颜色=====",
+				"ui_date_size" : "日期字号",
+				"ui_day_color" : "日",
+				"ui_footer_slogan" : "下方标题",
+				"ui_footer_slogan_size" : "下方标题字号",
+				"ui_from_friend_tips" : "=====Steamer的创意=====",
+				"ui_header_slogan" : "上方标题",
+				"ui_header_slogan_size" : "上方标题字号",
+				"ui_hello_world" : "一个小练习. 如果你有有趣的想法想加入到这个壁纸中, 欢迎留言, 我会努力实现.",
+				"ui_hour_color" : "小时",
+				"ui_min_color" : "分钟",
+				"ui_month_color" : "月",
+				"ui_other_thing" : "=====其他=====",
+				"ui_position" : "=====位置=====",
+				"ui_position_h" : "水平",
+				"ui_position_h_c" : "中",
+				"ui_position_h_l" : "左",
+				"ui_position_h_r" : "右",
+				"ui_position_v" : "垂直",
+				"ui_position_v_c" : "中",
+				"ui_position_v_d" : "下",
+				"ui_position_v_u" : "上",
+				"ui_prefix_birthday_string" : ">>文字前缀",
+				"ui_suffix_birthday_string" : ">>文字后缀",
+				"ui_text_color" : "文字",
+				"ui_text_opacity" : "时钟遮蔽透明度",
+				"ui_text_opacity_color" : "时钟遮蔽颜色",
+				"ui_text_size" : "=====文字与大小=====",
+				"ui_time_size" : "时间字号",
+				"ui_year_color" : "年",
+				"ui_scroll_size": "进度条长度"
+			},
+			"zh-cht" :
+			{
+				"ui_12_24_12" : "12小時",
+				"ui_12_24_24" : "24小時",
+				"ui_background_image" : "背景",
+				"ui_birthday" : ">顯示活了多少天",
+				"ui_birthday_string" : ">>生日",
+				"ui_birthday_string_size" : ">>文字字號",
+				"ui_birthday_string_type" : "顯示方式",
+				"ui_birthday_string_type_days" : "天",
+				"ui_birthday_string_type_detail" : "详细",
+				"ui_body_color" : "純色背景",
+				"ui_color" : "=====顏色=====",
+				"ui_date_size" : "日期字號",
+				"ui_day_color" : "日",
+				"ui_footer_slogan" : "下方標題",
+				"ui_footer_slogan_size" : "下方標題字號",
+				"ui_from_friend_tips" : "=====Steamer的創意=====",
+				"ui_header_slogan" : "上方標題",
+				"ui_header_slogan_size" : "上方標題字號",
+				"ui_hello_world" : "壹個小練習. 如果妳有有趣的想法想加入到這個壁紙中, 歡迎留言, 我會努力實現.",
+				"ui_hour_color" : "小時",
+				"ui_min_color" : "分鐘",
+				"ui_month_color" : "月",
+				"ui_other_thing" : "=====其他=====",
+				"ui_position" : "=====位置=====",
+				"ui_position_h" : "水平",
+				"ui_position_h_c" : "中",
+				"ui_position_h_l" : "左",
+				"ui_position_h_r" : "右",
+				"ui_position_v" : "垂直",
+				"ui_position_v_c" : "中",
+				"ui_position_v_d" : "下",
+				"ui_position_v_u" : "上",
+				"ui_prefix_birthday_string" : ">>文字前綴",
+				"ui_suffix_birthday_string" : ">>文字後綴",
+				"ui_text_color" : "文字",
+				"ui_text_opacity" : "時鐘遮蔽透明度",
+				"ui_text_opacity_color" : "時鐘遮蔽顏色",
+				"ui_text_size" : "=====文字與大小=====",
+				"ui_time_size" : "時間字號",
+				"ui_year_color" : "年",
+				"ui_scroll_size": "進度條長度"
+			}
+		},
+		"properties" :
+		{
+			"12_24" :
+			{
+				"options" :
+				[
+					{
+						"label" : "ui_12_24_24",
+						"value" : "24"
+					},
+					{
+						"label" : "ui_12_24_12",
+						"value" : "12"
+					}
+				],
+				"order" : 107,
+				"text" : "12/24",
+				"type" : "combo",
+				"value" : "24"
+			},
+			"background_image" :
+			{
+				"order" : 121,
+				"text" : "ui_background_image",
+				"type" : "file",
+				"value" : ""
+			},
+			"birthday" :
+			{
+				"condition" : "from_friend_tips.value==true",
+				"order" : 126,
+				"text" : "ui_birthday",
+				"type" : "bool",
+				"value" : false
+			},
+			"birthday_string" :
+			{
+				"condition" : "from_friend_tips.value==true&&birthday.value==true",
+				"order" : 128,
+				"text" : "ui_birthday_string",
+				"type" : "textinput",
+				"value" : "1993.02.09"
+			},
+			"birthday_string_size" :
+			{
+				"condition" : "from_friend_tips.value==true&&birthday.value==true",
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 131,
+				"text" : "ui_birthday_string_size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"birthday_string_type" :
+			{
+				"condition" : "from_friend_tips.value==true&&birthday.value==true",
+				"options" :
+				[
+					{
+						"label" : "ui_birthday_string_type_detail",
+						"value" : "a"
+					},
+					{
+						"label" : "ui_birthday_string_type_days",
+						"value" : "b"
+					}
+				],
+				"order" : 129,
+				"text" : "ui_birthday_string_type",
+				"type" : "combo",
+				"value" : "a"
+			},
+			"body_color" :
+			{
+				"condition" : "background_image.value == ''",
+				"order" : 119,
+				"text" : "ui_body_color",
+				"type" : "color",
+				"value" : "0.08627450980392157 0.08627450980392157 0.08627450980392157"
+			},
+			"color" :
+			{
+				"order" : 112,
+				"text" : "ui_color",
+				"type" : "tip"
+			},
+			"date_size" :
+			{
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 104,
+				"text" : "ui_date_size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"day_color" :
+			{
+				"order" : 116,
+				"text" : "ui_day_color",
+				"type" : "color",
+				"value" : "1 0.9921568627450981 0.36470588235294116"
+			},
+			"footer_slogan" :
+			{
+				"order" : 110,
+				"text" : "ui_footer_slogan",
+				"type" : "textinput",
+				"value" : "Time flows away"
+			},
+			"footer_slogan_size" :
+			{
+				"condition" : "footer_slogan.value != ''",
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 111,
+				"text" : "ui_footer_slogan_size",
+				"type" : "slider",
+				"value" : 90
+			},
+			"from_friend_tips" :
+			{
+				"order" : 125,
+				"text" : "ui_from_friend_tips",
+				"type" : "bool",
+				"value" : false
+			},
+			"header_slogan" :
+			{
+				"order" : 108,
+				"text" : "ui_header_slogan",
+				"type" : "textinput",
+				"value" : "时光飞逝"
+			},
+			"header_slogan_size" :
+			{
+				"condition" : "header_slogan.value != ''",
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 109,
+				"text" : "ui_header_slogan_size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"hello_world" :
+			{
+				"order" : 124,
+				"text" : "ui_hello_world",
+				"type" : "tip"
+			},
+			"hour_color" :
+			{
+				"order" : 117,
+				"text" : "ui_hour_color",
+				"type" : "color",
+				"value" : "0.2784313725490196 0.5647058823529412 0.8980392156862745"
+			},
+			"min_color" :
+			{
+				"order" : 118,
+				"text" : "ui_min_color",
+				"type" : "color",
+				"value" : "0.5176470588235295 0.8470588235294118 0.29411764705882354"
+			},
+			"month_color" :
+			{
+				"order" : 115,
+				"text" : "ui_month_color",
+				"type" : "color",
+				"value" : "0.7803921568627451 0.3686274509803922 0.3254901960784314"
+			},
+			"other_thing" :
+			{
+				"order" : 120,
+				"text" : "ui_other_thing",
+				"type" : "tip"
+			},
+			"position" :
+			{
+				"order" : 100,
+				"text" : "ui_position",
+				"type" : "tip"
+			},
+			"position_h" :
+			{
+				"options" :
+				[
+					{
+						"label" : "ui_position_h_l",
+						"value" : "flex-start"
+					},
+					{
+						"label" : "ui_position_h_c",
+						"value" : "center"
+					},
+					{
+						"label" : "ui_position_h_r",
+						"value" : "flex-end"
+					}
+				],
+				"order" : 102,
+				"text" : "ui_position_h",
+				"type" : "combo",
+				"value" : "center"
+			},
+			"position_v" :
+			{
+				"options" :
+				[
+					{
+						"label" : "ui_position_v_u",
+						"value" : "flex-start"
+					},
+					{
+						"label" : "ui_position_v_c",
+						"value" : "center"
+					},
+					{
+						"label" : "ui_position_v_d",
+						"value" : "flex-end"
+					}
+				],
+				"order" : 101,
+				"text" : "ui_position_v",
+				"type" : "combo",
+				"value" : "center"
+			},
+			"prefix_birthday_string" :
+			{
+				"condition" : "from_friend_tips.value==true&&birthday.value==true",
+				"order" : 127,
+				"text" : "ui_prefix_birthday_string",
+				"type" : "textinput",
+				"value" : "度过了"
+			},
+			"schemecolor" :
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.10980392156862745 0.10980392156862745 0.10980392156862745"
+			},
+			"suffix_birthday_string" :
+			{
+				"condition" : "from_friend_tips.value==true&&birthday.value==true",
+				"order" : 130,
+				"text" : "ui_suffix_birthday_string",
+				"type" : "textinput",
+				"value" : "天"
+			},
+			"text_color" :
+			{
+				"order" : 113,
+				"text" : "ui_text_color",
+				"type" : "color",
+				"value" : "0.7843137254901961 0.7843137254901961 0.7843137254901961"
+			},
+			"text_opacity" :
+			{
+				"condition" : "background_image.value != ''",
+				"fraction" : true,
+				"max" : 1,
+				"min" : 0,
+				"order" : 123,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "ui_text_opacity",
+				"type" : "slider",
+				"value" : 0.59999999999999998
+			},
+			"text_opacity_color" :
+			{
+				"condition" : "background_image.value != ''",
+				"order" : 122,
+				"text" : "ui_text_opacity_color",
+				"type" : "color",
+				"value" : "0.08627450980392157 0.08627450980392157 0.08627450980392157"
+			},
+			"text_size" :
+			{
+				"order" : 103,
+				"text" : "ui_text_size",
+				"type" : "tip"
+			},
+			"time_size" :
+			{
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 105,
+				"text" : "ui_time_size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"scroll_size" :
+			{
+				"fraction" : false,
+				"max" : 300,
+				"min" : 1,
+				"order" : 106,
+				"precision" : 2,
+				"step" : 1,
+				"text" : "ui_scroll_size",
+				"type" : "slider",
+				"value" : 100
+			},
+			"year_color" :
+			{
+				"order" : 114,
+				"text" : "ui_year_color",
+				"type" : "color",
+				"value" : "0.7372549019607844 0.7411764705882353 0.7450980392156863"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Abstract" ],
+	"title" : "Time flows away",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : "2063148237"
+}

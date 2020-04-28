@@ -1,0 +1,104 @@
+body, html {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #161616;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+#text {
+    background-color: rgba(22, 22, 22, 0.6);
+    padding: 10px 30px;
+    margin: 50px 10px;
+    border-radius: 30px;
+    color: #c8c8c8;
+    font-size: 100px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#text > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.mask {
+    display: block;
+    width: 530px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box
+}
+
+.mask > .p {
+    width: 100%;
+    height: 100%;
+    transition: max-width 1s linear
+}
+
+#time .mask, #date .mask {
+    height: 10px;
+    margin-top: 5px
+}
+
+
+.mask#year {
+    border-color: #a83939
+}
+
+.mask#year > .p {
+    background-color: #a83939
+}
+
+.mask#month {
+    border-color: #a918c9
+}
+
+.mask#month > .p {
+    background-color: #a918c9
+}
+
+.mask#d {
+    border-color: #cd9519
+}
+
+.mask#d > .p {
+    background-color: #cd9519
+}
+
+.mask#m {
+    border-color: #23a034
+}
+
+.mask#m > .p {
+    background-color: #23a034
+}
+
+.mask#h {
+    border-color: #2c80a1
+}
+
+.mask#h > .p {
+    background-color: #2c80a1
+}
